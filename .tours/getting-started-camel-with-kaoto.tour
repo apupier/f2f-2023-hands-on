@@ -8,7 +8,7 @@
     },
     {
       "title": "Pre-requisites",
-      "description": "* CodeTour extension to use this tutorial interactively.\n* Extension pack for Camel. Go to Extensions and search for `Extension pack for Camel` and click on `Install` or click [here](command:workbench.extensions.action.installExtensions?redhat.apache-camel-extension-pack) to install it.\n* JBang must be available on command-line. See [how to install](https://www.jbang.dev/documentation/guide/latest/installation.html)."
+      "description": "* `CodeTour` extension to use this tutorial interactively.\n* `Extension pack for Camel`. Go to [Extensions](command:workbench.extensions.action.installExtensions) and search for `Extension pack for Camel` and click on `Install`.\n* `JBang` must be available on command-line. See [how to install](https://www.jbang.dev/documentation/guide/latest/installation.html)."
     },
     {
       "title": "Create Camel Yaml file",
