@@ -1,0 +1,53 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Getting Started with Camel debugger",
+  "steps": [
+    {
+      "title": "Introduction",
+      "description": "This tutorial will guide you to get started to use the Camel debugger."
+    },
+    {
+      "title": "Pre-requisites",
+      "description": "* CodeTour extension to use this tutorial interactively.\n* Extension pack for Camel. Go to Extensions and search for `Extension pack for Camel` and click on `Install` or click [here](command:workbench.extensions.action.installExtensions?redhat.apache-camel-extension-pack) to install it.\n* JBang must be available on command-line (for this tutorial). See [how to install](https://www.jbang.dev/documentation/guide/latest/installation.html)."
+    },
+    {
+      "title": "Open Camel route written with Java DSL",
+      "description": "Observe the basic route. it consists of 2 logs with 2 differents values of the body.",
+      "file": "CamelRoute.java"
+    },
+    {
+      "title": "Place breakpoint",
+      "description": "Click on the line of the first `log` on the band at the left of the code editor",
+      "file": "CamelRoute.java",
+      "line": 10
+    },
+    {
+      "title": "Start with Camel debug",
+      "description": "Click on the codelens `Camel debug with JBang` at the top of the editor.",
+      "file": "CamelRoute.java",
+      "line": 1
+    },
+    {
+      "title": "Breakpoint hit",
+      "file": "CamelRoute.java",
+      "description": "The debugger stopped on the line of the breakpoint.\n\nIn the left, the view Variables allows to see different variables values.\n\nFor instance, expand `Message` and check `Body` value.\n\nIt is even possible to change the value by right-clicking on it and use `Set value` contextual menu.",
+      "line": 10
+    },
+    {
+      "title": "Step over",
+      "file": "CamelRoute.java",
+      "description": "* Click on `Step Over` from the floating debug commad bar or use `F10`\n* It is jumping to next step of the route",
+      "line": 11
+    },
+    {
+      "title": "Step over and observe variable value modification",
+      "file": "CamelRoute.java",
+      "description": "* Click another time on `Step Over` or use `F10`\n* It is jumping to next step of the route\n* In the Variables view, the `Body` variable value is highlighted as the value has changed",
+      "line": 13
+    },
+    {
+      "title": "Go further",
+      "description": "To go further, you can check documentation and videos:\n* [Written documentation fo radvanced configurations](https://camel-tooling.github.io/camel-dap-client-vscode/content/advanced.html)\n* [Video How to debug a Camel Quarkus 2.12+ route in VS Code](https://www.youtube.com/watch?v=uCE8VG5ZrxM)\n* [Video How to use Camel Textual Route Debugger when executing Camel test in VS Code - Camel 3.18+](https://www.youtube.com/watch?v=_hKIg81WJUs)"
+    }
+  ]
+}

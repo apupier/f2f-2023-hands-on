@@ -1,0 +1,35 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Getting Started Camel With Kaoto",
+  "steps": [
+    {
+      "title": "Introduction",
+      "description": "This step by step guide will demo how to get started to create a Camel integration, edit it with the graphical editor Kaoto and run it with Camel JBang"
+    },
+    {
+      "title": "Pre-requisites",
+      "description": "* CodeTour extension to use this tutorial interactively.\n* Extension pack for Camel. Go to Extensions and search for `Extension pack for Camel` and click on `Install` or click [here](command:workbench.extensions.action.installExtensions?redhat.apache-camel-extension-pack) to install it.\n* JBang must be available on command-line. See [how to install](https://www.jbang.dev/documentation/guide/latest/installation.html)."
+    },
+    {
+      "title": "Create Camel Yaml file",
+      "description": "* Open command palette `Ctrl+Shift+P` and search for command `Camel: Create a Camel Route using Yaml DSL`\n* Provide a name. Then hit Enter.\n* The file is opened in Kaoto editor."
+    },
+    {
+      "title": "Edit file",
+      "description": "* In Kaoto Editor, select step `Set Body`, the config panel is opening.\n* Change the expression.\n* Save the file."
+    },
+    {
+      "title": "Run Camel route",
+      "description": "* Open command palette and search for `Start and debug Camel Route with JBang`, then hit `Enter`\n\n(Soon will update when released) Or click on the action button `Run` above the top right of the Kaoto editor."
+    },
+    {
+      "title": "Observe log output",
+      "description": "A terminal has been opened and is logging the body that you specified in previous step."
+    },
+    {
+      "title": "Enjoy",
+      "description": "Now you know the basics and you can let the creativity guide you and create the Camel integration you wish from the Kaoto editor."
+    }
+  ],
+  "isPrimary": true
+}
