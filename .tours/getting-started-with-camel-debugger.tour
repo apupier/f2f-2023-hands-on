@@ -47,7 +47,7 @@
     },
     {
       "title": "Go further",
-      "description": "To go further, you can check documentation and videos:\n* [Written documentation fo radvanced configurations](https://camel-tooling.github.io/camel-dap-client-vscode/content/advanced.html)\n* [Video How to debug a Camel Quarkus 2.12+ route in VS Code](https://www.youtube.com/watch?v=uCE8VG5ZrxM)\n* [Video How to use Camel Textual Route Debugger when executing Camel test in VS Code - Camel 3.18+](https://www.youtube.com/watch?v=_hKIg81WJUs)"
+      "description": "To go further, you can check documentation and videos:\n* [Written documentation for advanced configurations](https://camel-tooling.github.io/camel-dap-client-vscode/content/advanced.html)\n* [Video How to debug a Camel Quarkus 2.12+ route in VS Code](https://www.youtube.com/watch?v=uCE8VG5ZrxM)\n* [Video How to use Camel Textual Route Debugger when executing Camel test in VS Code - Camel 3.18+](https://www.youtube.com/watch?v=_hKIg81WJUs)"
     }
   ]
 }
